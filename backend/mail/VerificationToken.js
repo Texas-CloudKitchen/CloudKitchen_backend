@@ -1,6 +1,6 @@
 import {sendMail} from "../helper/sendMail.js"
 
-export const resetPsswordToken = () => {
+export const verificationToken = () => {
     let mailOptions = {
         from: process.env.mail_user,
         to: '',
